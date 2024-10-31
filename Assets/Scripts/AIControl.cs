@@ -22,7 +22,7 @@ public class AIControl : MonoBehaviour {
         anim.SetFloat("sppedMult", sm);
         agent.speed *= sm;
     }
-
+        
 
     void Update() {
         if(agent.remainingDistance < 1)
